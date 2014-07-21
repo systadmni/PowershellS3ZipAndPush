@@ -7,4 +7,4 @@ $dest_file = read-host "Enter the output file name (add .7z to the end): "
 $file_path = $dest_path + "/" + $dest_file
 
 cd $7zipPath
-./7z.exe a -t7z -p"$passw" "$file_path" "$source_path"
+./7z.exe a -t7z -p"$passw" "$file_path" "$s_path"
